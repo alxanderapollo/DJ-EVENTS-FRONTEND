@@ -1,0 +1,8 @@
+Fetching Data
+
+Get Static props - fetchs on build time --> good for static websites
+
+get static paths - used to create dynamic routes - makes a request and look at each id, and generate those paths
+for us on build time
+
+getServerSideProps - 

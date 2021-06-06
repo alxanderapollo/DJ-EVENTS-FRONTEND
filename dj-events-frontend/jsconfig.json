@@ -1,0 +1,13 @@
+// in the components folder instead of making path trees, now
+//with @/components i can refrence components without the use of creating long path trees
+//every time the config file is changed we need to restart the server
+{
+    "compilerOptions":{
+        "baseUrl": ".",
+        "paths":{
+         "@/components/*": ["components/*"],
+         "@/styles/*": ["styles/*"]   ,
+         "@/config/*": ["config/*"]  
+        }
+    }
+}
