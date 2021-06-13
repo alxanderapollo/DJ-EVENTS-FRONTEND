@@ -16,6 +16,9 @@ export default function EventsPage({events}) {
       <h1>Events</h1>
       <h1>Events</h1>
       
+      <h1>Events</h1>
+      <h1>Events</h1>
+      
       {/* if the length of events is 0 meaning, not more to show then display as a header 'No Events to ADD' */}
       {events.length === 0 && <h3>No Events to ADD</h3>}
 
